@@ -1,0 +1,67 @@
+/* - - - Default - - - */
+@font-face {
+  font-family: 'FFMark';
+  font-weight: 700;
+  src: url("https://assets.coinjar.com/assets/typefaces/ffmark_heavy-151fb865.eot?") format("eot"), url("https://assets.coinjar.com/assets/typefaces/ffmark_heavy-f8bc5c50.woff2") format("woff2"), url("https://assets.coinjar.com/assets/typefaces/ffmark_heavy-06f77929.woff") format("woff"), url("https://assets.coinjar.com/assets/typefaces/ffmark_heavy-a141f47a.ttf") format("truetype"); }
+
+
+/* Logo */
+#logo a {
+	background-image:url('https://s3.us-west-2.amazonaws.com/filestorage-asset.wufoo.com/8f2713a1-e6eb-4873-ac97-a3349512a748/dd708c9f-e468-41c2-b47a-82378b04e71d');
+	background-color:#F5F5F5;
+	height:150px;
+	background-size: 120px 120px;
+	background-position: center;
+	margin: -15px -15px 30px -15px;
+	border-radius: 7px 7px 0 0;
+	border: 1px solid #000000;
+}
+
+/* Backgrounds */
+html{background-image:none;background-color:#F7F7F7}
+#logo{background-image:none;background-color:#fff}
+#container{background:#FFFFFF}
+.wufoo input.text, .wufoo textarea.textarea{background:#FFFFFF url(/images/fieldbg.gif) repeat-x top}
+.wufoo .focused{background:#FFF7C0}
+.wufoo .instruct{background-color:#F5F5F5}
+#container{ width: 800px; padding: 15px;}
+
+/* Borders */
+#container{
+	border: 1px solid #dddddd;
+	border-radius: 7px;
+	-o-box-shadow: none;
+	box-shadow: none;
+}
+.wufoo .info{border-bottom:1px dotted #CCCCCC}
+.wufoo .instruct{border:1px solid #e6e6e6}
+
+/* Typography */
+.wufoo { font-family: Avenir, Helvetica, Arial, sans-serif; font-size: 16px; color: #403e41;}
+.wufoo .info h2{font-size:160%;font-family:FFMark, Avenir, Arial, sans-serif;color:#403e41;line-height: 2.0;}
+.wufoo .info div{font-size:95%;font-family:inherit;color:#403e41}
+.wufoo .section h3{font-size:110%;font-family:FFMark, Avenir, Arial, sans-serif;background:#FFFFFF;color:#403e41}
+.wufoo .section div{font-size:85%;font-family:inherit;color:#403e41}
+.wufoo label.desc, .wufoo legend.desc{font-size:95%;font-family:inherit;color:#403e41;font-weight: 500;}
+.wufoo li div, .wufoo li div label, .wufoo li span label{font-family:inherit;color:#403e41}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{font-size:100%;font-family:inherit;color:#403e41}
+.wufoo label.choice{color:#444444}
+.wufoo .instruct{font-family:inherit;color:#444444}
+.wufoo input[type="submit"] {
+	color: white;
+  background: #f69023;
+  -webkit-transition: opacity 0.3s;
+          transition: opacity 0.3s;
+	border: 1px solid #BE6A21;
+	border-radius: 2.5px;
+	padding: 10px 37.5px;
+	cursor: pointer;
+	font-weight: 200;
+	font-size: 16px;
+}
+.wufoo input[type="submit"]:hover {
+    background-color: #f79c3b;
+}
+.wufoo .nodesc .desc{
+	display: none;
+}
